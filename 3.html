@@ -3,14 +3,20 @@
 <head>
  <title>Snooph - 3</title>
  <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <script
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+ <script src="colors.js"></script>
 </head>
 <body>
   <h1><a href="index.html">피너츠-스누피</a></h1>
+  <div id="grid">
   <ol>
     <li><a href="1.html">스누피의 탄생</a></li>
     <li><a href="2.html">스누피의 설정</a></li>
-    <li><a href="3.html">스누피의 흥사</a></li>
+    <li><a href="3.html"id="active">스누피의 흥사</a></li>
 </ol>
+<div id="content">
 <h2>스누피의 흥사</h2>
 <p>1. 초창기 스누피는 두 발이 아닌 네 발로 걸었다.</p>
 <p>2. 찰스 슐츠는 데일리 만화는 6주 먼저, 일요일 주간 만화는 10주 먼저 작업했다.</p>
@@ -24,5 +30,10 @@
 <p>10. 피너츠에 등장하는 흑인 캐릭터 '프랭클린' 때문에 슐츠는 정치적 공격을 받기도 했다.</p>
 <img src="스누피 단체.jpg" width="70%"><p style="margin-top:40px;">
 </p>
+</div>
+</div>
+<input type="button" value="dark" onclick="
+   darklighthandle(this)
+">
 </body>
 </html>
